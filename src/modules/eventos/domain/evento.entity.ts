@@ -10,7 +10,7 @@ class Evento extends Entity<IEvento> implements IEvento{
     private _local: string;
     private _data: string;
     private _horario: string;
-    private _banner: string;
+    private _banner: string | null | undefined;
     
 
     public static readonly TAMANHO_MINIMO_TITULO = 3
@@ -127,10 +127,10 @@ class Evento extends Entity<IEvento> implements IEvento{
         this._horario = horario;
     }
 
-    public get banner(): string {
+    public get banner(): string | null | undefined {
         return this._banner;
     }
-    public set banner(banner: string) {
+    public set banner(banner: string | null | undefined) {
         this._banner = banner;
     }
 

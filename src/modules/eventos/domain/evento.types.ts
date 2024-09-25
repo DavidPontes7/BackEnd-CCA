@@ -5,7 +5,7 @@ interface IEvento{
     local: string;
     data: string;
     horario: string;
-    banner: string;
+    banner: string | null | undefined;
 }
 
 type CriarEventoProps = Omit<IEvento, "id">

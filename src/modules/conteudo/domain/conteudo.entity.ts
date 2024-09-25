@@ -11,7 +11,7 @@ class Conteudo extends Entity<IConteudo> implements IConteudo{
     private _descricao: string;
     private _categoria: string;
     private _autor: string;
-    private _banner: string;
+    private _banner: string | null | undefined;
     private _publicadoEm: Date | undefined;
     
 
@@ -80,10 +80,10 @@ class Conteudo extends Entity<IConteudo> implements IConteudo{
         this._autor = autor;
     }
 
-    public get banner(): string  {
+    public get banner(): string | null | undefined  {
         return this._banner;
     }
-    public set banner(banner: string) {
+    public set banner(banner: string | null | undefined) {
         this._banner = banner;
     }
 
