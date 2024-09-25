@@ -1,8 +1,8 @@
-import { AdmApplicationExceptions } from ".../../modules/administrador/application/administrador.application.exception";
-import { AutenticarAdmUseCase } from ".../../modules/administrador/application/use-cases/autenticar-administrador/autenticar-administrador.use-case";
-import { CredenciaisAdmProps, IAdministrador } from ".../../modules/administrador/domain/administrador.types";
-import { ExpressController } from ".../../shared/presentation/http/express.controller";
-import { HttpErrors } from ".../../shared/presentation/http/http.error";
+import { AdmApplicationExceptions } from "../../../../../../modules/administrador/application/administrador.application.exception";
+import { AutenticarAdmUseCase } from "../../../../../../modules/administrador/application/use-cases/autenticar-administrador/autenticar-administrador.use-case";
+import { CredenciaisAdmProps, IAdministrador } from "../../../../../../modules/administrador/domain/administrador.types";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
+import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 import jwt from "jsonwebtoken";
 

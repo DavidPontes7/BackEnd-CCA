@@ -1,4 +1,4 @@
-import { IUseCase } from ".../../shared/application/use-case.interface";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 import { IAdministrador } from "../../../../../modules/administrador/domain/administrador.types";
 import { IAdmRepository } from "../../../../../modules/administrador/domain/administrador.repository.interface";
 import { Administrador } from "../../../../../modules/administrador/domain/administrador.entity";

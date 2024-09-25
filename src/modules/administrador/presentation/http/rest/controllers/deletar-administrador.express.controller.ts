@@ -1,7 +1,7 @@
-import { AdmApplicationExceptions } from ".../../modules/administrador/application/administrador.application.exception";
-import { DeletarAdmUseCase } from ".../../modules/administrador/application/use-cases/deletar-administrador/deletar-administrador.use-case";
-import { ExpressController } from ".../../shared/presentation/http/express.controller";
-import { HttpErrors } from ".../../shared/presentation/http/http.error";
+import { AdmApplicationExceptions } from "../../../../../../modules/administrador/application/administrador.application.exception";
+import { DeletarAdmUseCase } from "../../../../../../modules/administrador/application/use-cases/deletar-administrador/deletar-administrador.use-case";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
+import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 class DeletarAdmExpressController extends ExpressController {

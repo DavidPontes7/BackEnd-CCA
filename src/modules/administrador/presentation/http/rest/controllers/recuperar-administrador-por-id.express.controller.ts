@@ -1,9 +1,9 @@
-import { AdmApplicationExceptions } from ".../../modules/administrador/application/administrador.application.exception";
-import { RecuperarAdmPorIdUseCase } from ".../../modules/administrador/application/use-cases/recuperar-administrador-por-id/recuperar-administrador-por-id.use-case";
-import { IAdministrador } from ".../../modules/administrador/domain/administrador.types";
-import { IConteudo } from ".../../modules/conteudo/domain/conteudo.types";
-import { ExpressController } from ".../../shared/presentation/http/express.controller";
-import { HttpErrors } from ".../../shared/presentation/http/http.error";
+import { AdmApplicationExceptions } from "../../../../../../modules/administrador/application/administrador.application.exception";
+import { RecuperarAdmPorIdUseCase } from "../../../../../../modules/administrador/application/use-cases/recuperar-administrador-por-id/recuperar-administrador-por-id.use-case";
+import { IAdministrador } from "../../../../../../modules/administrador/domain/administrador.types";
+import { IConteudo } from "../../../../../../modules/conteudo/domain/conteudo.types";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
+import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 class RecuperarAdmPorIdExpressController extends ExpressController {

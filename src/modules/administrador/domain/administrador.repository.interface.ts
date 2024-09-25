@@ -1,4 +1,4 @@
-import { IRepository } from ".../../shared/domain/repository.interface";
+import { IRepository } from "../../../shared/domain/repository.interface";
 import { Administrador } from "./administrador.entity";
 import { CredenciaisAdmProps } from "./administrador.types";
 

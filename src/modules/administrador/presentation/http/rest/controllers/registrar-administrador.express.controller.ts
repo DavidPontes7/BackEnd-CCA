@@ -1,6 +1,6 @@
-import { RegistrarAdmUseCase } from ".../../modules/administrador/application/use-cases/registrar-administrador/registrar-administrador.use-case";
-import { CriarAdmProps, IAdministrador } from ".../../modules/administrador/domain/administrador.types";
-import { ExpressController } from ".../../shared/presentation/http/express.controller";
+import { RegistrarAdmUseCase } from "../../../../../../modules/administrador/application/use-cases/registrar-administrador/registrar-administrador.use-case";
+import { CriarAdmProps, IAdministrador } from "../../../../../../modules/administrador/domain/administrador.types";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
 import { NextFunction, Request, Response } from "express";
 
 class RegistrarAdmExpressController extends ExpressController {
