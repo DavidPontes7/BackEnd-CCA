@@ -1,6 +1,6 @@
 import { InserirConteudoUseCase } from "modules/conteudo/application/use-cases/inserir-conteudo/inserir-conteudo-use-case";
 import { CriarConteudoProps, IConteudo } from "modules/conteudo/domain/conteudo.types";
-import { logger } from "shared/helpers/logger.winston";
+import { logger } from "../../../../../../shared/helpers/logger.winston";
 import { ExpressController } from "shared/presentation/http/express.controller";
 import { NextFunction, Request, Response } from "express";
 

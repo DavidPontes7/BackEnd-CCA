@@ -1,4 +1,4 @@
-import { logger } from "shared/helpers/logger.winston";
+import { logger } from "../../../../shared/helpers/logger.winston";
 import { HttpError } from "shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 

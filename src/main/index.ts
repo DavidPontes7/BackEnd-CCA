@@ -3,7 +3,7 @@ import { createHTTPServer } from './presentation/http/server';
 import { prisma } from './infra/database/orm/prisma/client';
 import { Application } from 'express';
 import { createExpressApplication } from './presentation/http/app.express';
-import { logger } from 'shared/helpers/logger.winston';
+import { logger } from '../shared/helpers/logger.winston';
 
 async function bootstrap() {
 

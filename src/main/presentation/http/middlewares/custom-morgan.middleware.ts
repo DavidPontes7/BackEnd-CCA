@@ -1,5 +1,5 @@
 import morgan from "morgan";
-import { logger } from "shared/helpers/logger.winston";
+import { logger } from "../../../../shared/helpers/logger.winston";
 
 const stream = {
     write: (message:string) => logger.http(message.trim()),
