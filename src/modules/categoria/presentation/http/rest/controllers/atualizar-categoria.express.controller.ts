@@ -2,7 +2,7 @@ import { CategoriaApplicationExceptions } from "modules/categoria/application/co
 import { AtualizarCategoriaUseCase } from "modules/categoria/application/use-cases/atualizar-categoria/atualizar-categoria.use-case";
 import { RecuperarCategoriaProps } from "modules/categoria/domain/categoria.types";
 import { ExpressController } from "shared/presentation/http/express.controller";
-import { HttpErrors } from "shared/presentation/http/http.error";
+import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 class AtualizarCategoriaExpressController extends ExpressController {

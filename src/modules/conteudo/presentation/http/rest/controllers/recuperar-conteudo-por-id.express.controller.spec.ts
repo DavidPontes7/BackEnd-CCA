@@ -5,7 +5,7 @@ import { ConteudoApplicationExceptions } from "modules/conteudo/application/cont
 import { IConteudo } from "modules/conteudo/domain/conteudo.types";
 import { RecuperarConteudoPorIdUseCase } from "modules/conteudo/application/use-cases/recuperar-conteudo-por-id/recuperar-conteudo-por-id-use-case";
 import { RecuperarConteudoPorIdExpressController } from "./recuperar-conteudo-por-id.express.controller";
-import { HttpError, HttpErrors } from "shared/presentation/http/http.error";
+import { HttpError, HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 
 let requestMock: MockProxy<Request>;
 let responseMock: MockProxy<Response>;

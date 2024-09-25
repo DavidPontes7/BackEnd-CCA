@@ -2,7 +2,7 @@
 import { LiturgiaApplicationExceptions } from "modules/liturgia/application/liturgia.application.exception";
 import { DeletarLiturgiaUseCase } from "modules/liturgia/application/use-cases/deletar-liturgia/deletar-liturgia.use-case";
 import { ExpressController } from "shared/presentation/http/express.controller";
-import { HttpErrors } from "shared/presentation/http/http.error";
+import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 class DeletarLiturgiaExpressController extends ExpressController {

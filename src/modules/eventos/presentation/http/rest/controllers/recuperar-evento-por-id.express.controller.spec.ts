@@ -5,7 +5,7 @@ import { RecuperarEventoPorIdUseCase } from "modules/eventos/application/use-cas
 import { RecuperarEventoPorIdExpressController } from "./recuperar-evento-por-id.express.controller";
 import { IEvento } from "modules/eventos/domain/evento.types";
 import { EventoApplicationExceptions } from "modules/eventos/application/evento.application.exception";
-import { HttpError, HttpErrors } from "shared/presentation/http/http.error";
+import { HttpError, HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 
 
 let requestMock: MockProxy<Request>;

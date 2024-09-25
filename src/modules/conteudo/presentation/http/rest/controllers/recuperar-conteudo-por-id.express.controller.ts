@@ -2,7 +2,7 @@ import { ConteudoApplicationExceptions } from "modules/conteudo/application/cont
 import { RecuperarConteudoPorIdUseCase } from "modules/conteudo/application/use-cases/recuperar-conteudo-por-id/recuperar-conteudo-por-id-use-case";
 import { IConteudo } from "modules/conteudo/domain/conteudo.types";
 import { ExpressController } from "shared/presentation/http/express.controller";
-import { HttpErrors } from "shared/presentation/http/http.error";
+import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 class RecuperarConteudoPorIdExpressController extends ExpressController {

@@ -3,7 +3,7 @@ import { InscricaoApplicationExceptions } from "modules/inscricao/application/in
 import { AtualizarInscricaoUseCase } from "modules/inscricao/application/use-cases/atualizar-inscricao/atualizar-inscricao.use-case";
 import { RecuperarInscricaoProps } from "modules/inscricao/domain/inscricao.types";
 import { ExpressController } from "shared/presentation/http/express.controller";
-import { HttpErrors } from "shared/presentation/http/http.error";
+import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 class AtualizarInscricaoExpressController extends ExpressController {

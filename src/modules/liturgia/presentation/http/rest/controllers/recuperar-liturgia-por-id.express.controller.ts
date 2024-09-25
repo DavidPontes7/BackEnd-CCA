@@ -3,7 +3,7 @@ import { LiturgiaApplicationExceptions } from "modules/liturgia/application/litu
 import { RecuperarLiturgiaPorIdUseCase } from "modules/liturgia/application/use-cases/recuperar-liturgia-por-id/recuperar-liturgia-por-id.use-case";
 import { ILiturgia } from "modules/liturgia/domain/liturgia.types";
 import { ExpressController } from "shared/presentation/http/express.controller";
-import { HttpErrors } from "shared/presentation/http/http.error";
+import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 class RecuperarLiturgiaPorIdExpressController extends ExpressController {
