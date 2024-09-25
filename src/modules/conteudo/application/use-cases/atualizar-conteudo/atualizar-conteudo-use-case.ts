@@ -31,7 +31,9 @@ class AtualizarConteudoUseCase implements IUseCase<RecuperarConteudoProps, boole
         // Manter o banner atual se um novo não for fornecido
         let bannerToUpdate = conteudoAtual.banner;
         if (conteudoProps.banner) {
-            this.deletarArquivo(conteudoAtual.banner); // Excluir o banner antigo se um novo foi enviado
+            if (typeof conteudoAtual.banner === 'string') {
+                this.deletarArquivo(conteudoAtual.banner);
+            }
             bannerToUpdate = conteudoProps.banner; // Atualiza para o novo banner
         }
 
