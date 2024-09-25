@@ -1,4 +1,4 @@
-import { administradorRouter } from 'modules/administrador/presentation/http/rest/administrador.routes';
+import { administradorRouter } from '../../../../modules/administrador/presentation/http/rest/administrador.routes';
 import { categoriaRouter } from 'modules/categoria/presentation/http/rest/categoria.routes';
 import { conteudoRouter } from 'modules/conteudo/presentation/http/rest/conteudo.routes';
 import { eventoRouter } from 'modules/eventos/presentation/http/rest/evento.routes';
