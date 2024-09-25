@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.express.js",
+    "start": "node dist/src/main/presentation/http/app.express.js",
     "dev:server": "nodemon",
     "dev:console": "node -r tsconfig-paths/register -r sucrase/register src/index.ts",
     "test": "vitest",
