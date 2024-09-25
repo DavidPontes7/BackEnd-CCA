@@ -46,11 +46,11 @@ describe('Repositório Prisma: Conteudo', () => {
                 id: UUIDValido,
                 titulo: tituloEventoValido,
                 descricao: descricaoEventoValida,
-                publicadoEm: new Date(), // Adicionei as propriedades faltantes
+                publicadoEm: new Date(),
                 atualizadoEm: new Date(),
-                categoria: UUIDValido, // Ajuste conforme necessário
-                viewCount: 0, // Ajuste conforme necessário
-                category: "Categoria Teste", // Adicionei a propriedade faltante
+                categoria: UUIDValido, // Mantenha esta propriedade como string
+                viewCount: 0,
+                category: { connect: { id: UUIDValido } }, // Mantenha este objeto para a conexão
                 autor: "Deivid Pontes",
                 banner: "https://google.com"
             },
@@ -58,11 +58,11 @@ describe('Repositório Prisma: Conteudo', () => {
                 id: UUIDValido,
                 titulo: tituloEventoValido,
                 descricao: descricaoEventoValida,
-                publicadoEm: new Date(), // Adicionei as propriedades faltantes
+                publicadoEm: new Date(),
                 atualizadoEm: new Date(),
-                categoria: UUIDValido, // Ajuste conforme necessário
-                viewCount: 0, // Ajuste conforme necessário
-                category: "Categoria Teste", // Adicionei a propriedade faltante
+                categoria: UUIDValido, // Mantenha esta propriedade como string
+                viewCount: 0,
+                category: { connect: { id: UUIDValido } }, // Mantenha este objeto para a conexão
                 autor: "Deivid Pontes",
                 banner: "https://google.com"
             }];

@@ -31,7 +31,7 @@ class InscricaoMap {
           email: InscricaoPrisma.email,
           grupo: InscricaoPrisma.grupo,
           setor: InscricaoPrisma.setor,
-          eventId: InscricaoPrisma.evento,
+          eventId: InscricaoPrisma.evento?.connect?.id || "",
           telefone: InscricaoPrisma.telefone,
           idade: InscricaoPrisma.idade
         });
