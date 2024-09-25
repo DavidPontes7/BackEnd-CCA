@@ -1,7 +1,7 @@
-import { Administrador } from ".../../modules/administrador/domain/administrador.entity";
-import { IAdmRepository } from ".../../modules/administrador/domain/administrador.repository.interface";
-import { CriarAdmProps, IAdministrador } from ".../../modules/administrador/domain/administrador.types";
-import { AdministradorMap } from ".../../modules/administrador/infra/mappers/administrador.map";
+import { Administrador } from "../../../../../modules/administrador/domain/administrador.entity";
+import { IAdmRepository } from "../../../../../modules/administrador/domain/administrador.repository.interface";
+import { CriarAdmProps, IAdministrador } from "../../../../../modules/administrador/domain/administrador.types";
+import { AdministradorMap } from "../../../../../modules/administrador/infra/mappers/administrador.map";
 import { IUseCase } from ".../../shared/application/use-case.interface";
 
 class RegistrarAdmUseCase implements IUseCase<CriarAdmProps,IAdministrador> {

@@ -1,6 +1,6 @@
 import { IUseCase } from ".../../shared/application/use-case.interface";
-import { Administrador } from ".../../modules/administrador/domain/administrador.entity";
-import { IAdmRepository } from ".../../modules/administrador/domain/administrador.repository.interface";
+import { Administrador } from "../../../../../modules/administrador/domain/administrador.entity";
+import { IAdmRepository } from "../../../../../modules/administrador/domain/administrador.repository.interface";
 import { AdmApplicationExceptions } from "../../administrador.application.exception";
 
 
