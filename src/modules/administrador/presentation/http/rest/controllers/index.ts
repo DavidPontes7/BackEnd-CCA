@@ -1,4 +1,4 @@
-import { atualizarAdministradorUseCase, autenticarAdministradorUseCase, deletarAdministradorUseCase, recuperarAdmPorIdUseCase, recuperarTodosAdmUseCase, registrarAdministradorUseCase } from "modules/administrador/application/use-cases";
+import { atualizarAdministradorUseCase, autenticarAdministradorUseCase, deletarAdministradorUseCase, recuperarAdmPorIdUseCase, recuperarTodosAdmUseCase, registrarAdministradorUseCase } from ".../../modules/administrador/application/use-cases";
 import { AutenticarAdmExpressController } from "./autenticar-administrador.express.controller";
 import { RegistrarAdmExpressController } from "./registrar-administrador.express.controller";
 import { AtualizarAdmExpressController } from "./atualizar-administrador.express.controller";

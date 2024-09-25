@@ -1,10 +1,10 @@
-import { Administrador } from "modules/administrador/domain/administrador.entity";
-import { IAdmRepository } from "modules/administrador/domain/administrador.repository.interface";
-import { PrismaRepository } from "shared/infra/database/prisma.repository";
+import { Administrador } from "../../../../modules/administrador/domain/administrador.entity";
+import { IAdmRepository } from "../../../../modules/administrador/domain/administrador.repository.interface";
+import { PrismaRepository } from "../../../../shared/infra/database/prisma.repository";
 import { AdministradorMap } from "../mappers/administrador.map";
-import { CredenciaisAdmProps } from "modules/administrador/domain/administrador.types";
+import { CredenciaisAdmProps } from "../../../../modules/administrador/domain/administrador.types";
 import bcrypt from "bcrypt"
-import { logger } from "shared/helpers/logger.winston";
+import { logger } from "../../../../shared/helpers/logger.winston";
 
 class AdmPrismaRepository extends PrismaRepository implements IAdmRepository<Administrador> {
 

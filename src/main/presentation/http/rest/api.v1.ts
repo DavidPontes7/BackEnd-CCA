@@ -1,9 +1,9 @@
 import { administradorRouter } from '../../../../modules/administrador/presentation/http/rest/administrador.routes';
-import { categoriaRouter } from 'modules/categoria/presentation/http/rest/categoria.routes';
-import { conteudoRouter } from 'modules/conteudo/presentation/http/rest/conteudo.routes';
-import { eventoRouter } from 'modules/eventos/presentation/http/rest/evento.routes';
-import { inscricaoRouter } from 'modules/inscricao/presentation/http/rest/inscricao.routes';
-import { liturgiaRouter } from 'modules/liturgia/presentation/http/rest/liturgia.routes';
+import { categoriaRouter } from '../../../../modules/categoria/presentation/http/rest/categoria.routes';
+import { conteudoRouter } from '../../../../modules/conteudo/presentation/http/rest/conteudo.routes';
+import { eventoRouter } from '../../../../modules/eventos/presentation/http/rest/evento.routes';
+import { inscricaoRouter } from '../../../../modules/inscricao/presentation/http/rest/inscricao.routes';
+import { liturgiaRouter } from '../../../../modules/liturgia/presentation/http/rest/liturgia.routes';
 import express, { Router } from 'express';
 import path from 'path';
 import { contatoRouter } from '../serviceroutes/contato.routes';

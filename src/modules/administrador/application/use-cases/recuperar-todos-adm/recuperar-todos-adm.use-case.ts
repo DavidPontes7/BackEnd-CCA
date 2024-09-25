@@ -1,8 +1,8 @@
-import { Administrador } from "modules/administrador/domain/administrador.entity";
-import { IAdmRepository } from "modules/administrador/domain/administrador.repository.interface";
-import { IAdministrador } from "modules/administrador/domain/administrador.types";
-import { AdministradorMap } from "modules/administrador/infra/mappers/administrador.map";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Administrador } from ".../../modules/administrador/domain/administrador.entity";
+import { IAdmRepository } from ".../../modules/administrador/domain/administrador.repository.interface";
+import { IAdministrador } from ".../../modules/administrador/domain/administrador.types";
+import { AdministradorMap } from ".../../modules/administrador/infra/mappers/administrador.map";
+import { IUseCase } from ".../../shared/application/use-case.interface";
 
 class RecuperarTodosAdmUseCase implements IUseCase<void,Array<IAdministrador>> {
     private _administradorRepositorio: IAdmRepository<Administrador>;
