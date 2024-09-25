@@ -1,9 +1,9 @@
 import { CriarConteudoProps, EditarConteudoProps, IConteudo, RecuperarConteudoProps } from "./conteudo.types";
 import { ConteudoMap } from "../infra/mappers/conteudo.map";
-import { Entity } from "@shared/domain/entity";
+import { Entity } from "shared/domain/entity";
 import { TituloConteudoNuloOuIndefinido, TituloConteudoTamanhoMinimoInvalido, TituloConteudoTamanhoMaximoInvalido, DescricaoConteudoNuloOuIndefinido, DescricaoConteudoTamanhoMinimoInvalido, DescricaoConteudoTamanhoMaximoInvalido } from "./conteudo.exception";
-import { Categoria } from "@modules/categoria/domain/categoria.entity";
-import { RecuperarCategoriaProps } from "@modules/categoria/domain/categoria.types";
+import { Categoria } from "modules/categoria/domain/categoria.entity";
+import { RecuperarCategoriaProps } from "modules/categoria/domain/categoria.types";
 
 
 class Conteudo extends Entity<IConteudo> implements IConteudo{

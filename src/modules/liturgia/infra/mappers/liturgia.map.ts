@@ -1,6 +1,6 @@
 
-import { Liturgia } from "@modules/liturgia/domain/liturgia.entity";
-import { ILiturgia, RecuperarLiturgiaProps } from "@modules/liturgia/domain/liturgia.types";
+import { Liturgia } from "modules/liturgia/domain/liturgia.entity";
+import { ILiturgia, RecuperarLiturgiaProps } from "modules/liturgia/domain/liturgia.types";
 import { Prisma } from "@prisma/client";
 
 

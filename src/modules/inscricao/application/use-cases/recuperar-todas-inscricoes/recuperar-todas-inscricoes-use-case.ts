@@ -1,9 +1,9 @@
 
-import { Inscricao } from "@modules/inscricao/domain/inscricao.entity";
-import { IInscricaoRepository } from "@modules/inscricao/domain/inscricao.repository.interface";
-import { IInscricao } from "@modules/inscricao/domain/inscricao.types";
-import { InscricaoMap } from "@modules/inscricao/infra/mappers/inscricao.map";
-import { IUseCase } from "@shared/application/use-case.interface";
+import { Inscricao } from "modules/inscricao/domain/inscricao.entity";
+import { IInscricaoRepository } from "modules/inscricao/domain/inscricao.repository.interface";
+import { IInscricao } from "modules/inscricao/domain/inscricao.types";
+import { InscricaoMap } from "modules/inscricao/infra/mappers/inscricao.map";
+import { IUseCase } from "shared/application/use-case.interface";
 
 class RecuperarTodasInscricoesUseCase implements IUseCase<void,Array<IInscricao>> {
     private _inscricaoRepositorio: IInscricaoRepository<Inscricao>;

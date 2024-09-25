@@ -1,4 +1,4 @@
-import { IRepository } from "@shared/domain/repository.interface";
+import { IRepository } from "shared/domain/repository.interface";
 
 interface IConteudoRepository<T> extends IRepository<T> {}
 

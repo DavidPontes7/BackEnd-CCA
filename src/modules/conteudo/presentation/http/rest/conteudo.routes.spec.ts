@@ -2,7 +2,7 @@ import express, { Application } from "express";
 import { afterEach, beforeAll, describe, expect, test, vi } from "vitest";
 import { MockProxy, mock, mockReset } from "vitest-mock-extended";
 import request from 'supertest';
-import { CriarConteudoProps, IConteudo } from "@modules/conteudo/domain/conteudo.types";
+import { CriarConteudoProps, IConteudo } from "modules/conteudo/domain/conteudo.types";
 import { InserirConteudoExpressController } from "./controllers/inserir-conteudo.express.controller";
 import { RecuperarConteudoPorIdExpressController } from "./controllers/recuperar-conteudo-por-id.express.controller";
 

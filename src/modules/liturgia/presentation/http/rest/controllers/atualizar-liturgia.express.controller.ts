@@ -1,9 +1,9 @@
 
-import { LiturgiaApplicationExceptions } from "@modules/liturgia/application/liturgia.application.exception";
-import { AtualizarLiturgiaUseCase } from "@modules/liturgia/application/use-cases/atualizar-liturgia/atualizar-liturgia.use-case";
-import { RecuperarLiturgiaProps } from "@modules/liturgia/domain/liturgia.types";
-import { ExpressController } from "@shared/presentation/http/express.controller";
-import { HttpErrors } from "@shared/presentation/http/http.error";
+import { LiturgiaApplicationExceptions } from "modules/liturgia/application/liturgia.application.exception";
+import { AtualizarLiturgiaUseCase } from "modules/liturgia/application/use-cases/atualizar-liturgia/atualizar-liturgia.use-case";
+import { RecuperarLiturgiaProps } from "modules/liturgia/domain/liturgia.types";
+import { ExpressController } from "shared/presentation/http/express.controller";
+import { HttpErrors } from "shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 class AtualizarLiturgiaExpressController extends ExpressController {

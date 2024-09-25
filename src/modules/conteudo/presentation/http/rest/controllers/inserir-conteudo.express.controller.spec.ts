@@ -1,8 +1,8 @@
 import { Mock, afterEach, beforeAll, describe, expect, test, vi, vitest } from "vitest";
 import { MockProxy, mock, mockReset } from "vitest-mock-extended";
 import { Request, Response } from "express";
-import { CriarConteudoProps } from "@modules/conteudo/domain/conteudo.types";
-import { InserirConteudoUseCase } from "@modules/conteudo/application/use-cases/inserir-conteudo/inserir-conteudo-use-case";
+import { CriarConteudoProps } from "modules/conteudo/domain/conteudo.types";
+import { InserirConteudoUseCase } from "modules/conteudo/application/use-cases/inserir-conteudo/inserir-conteudo-use-case";
 import { InserirConteudoExpressController } from "./inserir-conteudo.express.controller";
 
 

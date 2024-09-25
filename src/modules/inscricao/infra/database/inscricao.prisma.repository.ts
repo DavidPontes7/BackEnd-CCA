@@ -1,5 +1,5 @@
-import { Inscricao } from "@modules/inscricao/domain/inscricao.entity";
-import { PrismaRepository } from "@shared/infra/database/prisma.repository";
+import { Inscricao } from "modules/inscricao/domain/inscricao.entity";
+import { PrismaRepository } from "shared/infra/database/prisma.repository";
 import bcrypt from "bcrypt"
 import { InscricaoMap } from "../mappers/inscricao.map";
 import { Prisma } from "@prisma/client";

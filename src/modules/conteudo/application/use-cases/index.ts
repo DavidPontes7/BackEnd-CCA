@@ -1,4 +1,4 @@
-import { conteudorepositorio } from "@modules/conteudo/infra/database";
+import { conteudorepositorio } from "modules/conteudo/infra/database";
 import { RecuperarTodosConteudosUseCase } from "./recuperar-todos-conteudos/recuperar-todos-conteudos-use-case";
 import { RecuperarConteudoPorIdUseCase } from "./recuperar-conteudo-por-id/recuperar-conteudo-por-id-use-case";
 import { InserirConteudoUseCase } from "./inserir-conteudo/inserir-conteudo-use-case";

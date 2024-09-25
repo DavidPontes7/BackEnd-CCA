@@ -1,4 +1,4 @@
-import { atualizarLiturgiaUseCase, deletarLiturgiaUseCase, inserirLiturgiaUseCase, recuperarLiturgiaPorIdUseCase, recuperarTodasLiturgiasUseCase } from "@modules/liturgia/application/use-cases"
+import { atualizarLiturgiaUseCase, deletarLiturgiaUseCase, inserirLiturgiaUseCase, recuperarLiturgiaPorIdUseCase, recuperarTodasLiturgiasUseCase } from "modules/liturgia/application/use-cases"
 import { AtualizarLiturgiaExpressController } from "./atualizar-liturgia.express.controller"
 import { DeletarLiturgiaExpressController } from "./deletar-liturgia.express.controller"
 import { InserirLiturgiaExpressController } from "./inserir-liturgia.express.controller"

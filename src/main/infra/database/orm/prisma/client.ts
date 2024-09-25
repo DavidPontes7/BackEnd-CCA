@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client';
-import { logger } from '@shared/helpers/logger.winston';
+import { logger } from 'shared/helpers/logger.winston';
 
 declare global {
     var prisma: PrismaClient

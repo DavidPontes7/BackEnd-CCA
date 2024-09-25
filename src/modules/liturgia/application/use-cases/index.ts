@@ -1,4 +1,4 @@
-import { liturgiaRepositorio } from "@modules/liturgia/infra/database"
+import { liturgiaRepositorio } from "modules/liturgia/infra/database"
 import { InserirLiturgiaUseCase } from "./inserir-liturgia/inserir-liturgia.use-case"
 import { AtualizarLiturgiaUseCase } from "./atualizar-liturgia/atualizar-liturgia.use-case"
 import { DeletarLiturgiaUseCase } from "./deletar-liturgia/deletar-liturgia.use-case"

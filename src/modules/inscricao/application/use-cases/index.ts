@@ -1,4 +1,4 @@
-import { inscricaoRepositorio } from "@modules/inscricao/infra/database"
+import { inscricaoRepositorio } from "modules/inscricao/infra/database"
 import { AtualizarInscricaoUseCase } from "./atualizar-inscricao/atualizar-inscricao.use-case"
 import { DeletarInscricaoUseCase } from "./deletar-inscricao/deletar-inscricao.use-case"
 import { InserirInscricaoUseCase } from "./inserir-inscricao/inserir-inscricao.use-case"

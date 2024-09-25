@@ -1,9 +1,9 @@
-import { Evento } from "@modules/eventos/domain/evento.entity";
-import { IEventoRepository } from "@modules/eventos/domain/evento.repository.interface";
-import { IEvento } from "@modules/eventos/domain/evento.types";
-import { IUseCase } from "@shared/application/use-case.interface";
+import { Evento } from "modules/eventos/domain/evento.entity";
+import { IEventoRepository } from "modules/eventos/domain/evento.repository.interface";
+import { IEvento } from "modules/eventos/domain/evento.types";
+import { IUseCase } from "shared/application/use-case.interface";
 import { EventoApplicationExceptions } from "../../evento.application.exception";
-import { EventoMap } from "@modules/eventos/infra/mappers/evento.map";
+import { EventoMap } from "modules/eventos/infra/mappers/evento.map";
 
 
 class RecuperarEventoPorIdUseCase implements IUseCase<string,IEvento> {

@@ -1,7 +1,7 @@
 
-import { RecuperarTodasInscricoesUseCase } from "@modules/inscricao/application/use-cases/recuperar-todas-inscricoes/recuperar-todas-inscricoes-use-case";
-import { IInscricao } from "@modules/inscricao/domain/inscricao.types";
-import { ExpressController } from "@shared/presentation/http/express.controller";
+import { RecuperarTodasInscricoesUseCase } from "modules/inscricao/application/use-cases/recuperar-todas-inscricoes/recuperar-todas-inscricoes-use-case";
+import { IInscricao } from "modules/inscricao/domain/inscricao.types";
+import { ExpressController } from "shared/presentation/http/express.controller";
 import { NextFunction, Request, Response } from "express";
 
 class RecuperarTodasInscricoesExpressController extends ExpressController {

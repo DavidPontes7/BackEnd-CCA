@@ -1,7 +1,7 @@
 import express from 'express';
 import {atualizarCategoriaController, deletarCategoriaController, recuperarTodasCategoriasController, registrarCategoriaController } from './controllers';
-import { contentType } from '@main/presentation/http/middlewares/content-type.middleware';
-import { authAdm } from '@main/presentation/http/middlewares/authMiddleware';
+import { contentType } from 'main/presentation/http/middlewares/content-type.middleware';
+import { authAdm } from 'main/presentation/http/middlewares/authMiddleware';
 import { validaInputInserirCategoria } from '../middlewares/valida-input-inserir-categoria.middleware';
 
 

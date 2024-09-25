@@ -1,5 +1,5 @@
-import { Entity } from "@shared/domain/entity";
-import { EventoMap } from "@modules/eventos/infra/mappers/evento.map";
+import { Entity } from "shared/domain/entity";
+import { EventoMap } from "modules/eventos/infra/mappers/evento.map";
 import { DataEventoNuloOuIndefinido, DescricaoEventoNuloOuIndefinido, DescricaoEventoTamanhoMaximoInvalido, DescricaoEventoTamanhoMinimoInvalido, HorarioEventoNuloOuIndefinido, HorarioEventoTamanhoMaximoInvalido, HorarioEventoTamanhoMinimoInvalido, LocalEventoNuloOuIndefinido, LocalEventoTamanhoMaximoInvalido, LocalEventoTamanhoMinimoInvalido, TituloEventoNuloOuIndefinido, TituloEventoTamanhoMaximoInvalido, TituloEventoTamanhoMinimoInvalido } from "./evento.exception";
 import { CriarEventoProps, EditarEventoProps, IEvento, RecuperarEventoProps } from "./evento.types";
 

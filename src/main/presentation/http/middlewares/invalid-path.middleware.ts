@@ -1,4 +1,4 @@
-import { HttpErrors } from "@shared/presentation/http/http.error";
+import { HttpErrors } from "shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 //Lança um erro 404 para caminhos indefinidos que vai ser tratado pelos middlewares de erros (log de erro e o responder de erro)

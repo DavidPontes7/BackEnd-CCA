@@ -6,8 +6,8 @@ import {
   recuperarConteudoPorIdController,
   recuperarTodosConteudosController
 } from './controllers';
-import { contentType } from '@main/presentation/http/middlewares/content-type.middleware';
-import { upload } from '@main/presentation/http/middlewares/multer-config';
+import { contentType } from 'main/presentation/http/middlewares/content-type.middleware';
+import { upload } from 'main/presentation/http/middlewares/multer-config';
 
 
 const conteudoRouter = express.Router();

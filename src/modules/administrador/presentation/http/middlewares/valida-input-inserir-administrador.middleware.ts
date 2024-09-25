@@ -1,4 +1,4 @@
-import { HttpErrors } from "@shared/presentation/http/http.error";
+import { HttpErrors } from "shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 import { z, ZodSchema } from "zod";
 import { fromZodError } from 'zod-validation-error';

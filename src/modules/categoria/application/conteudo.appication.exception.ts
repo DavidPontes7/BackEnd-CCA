@@ -1,4 +1,4 @@
-import { ApplicationException } from "@shared/application/application.exception";
+import { ApplicationException } from "shared/application/application.exception";
 
 class CategoriaApplicationException extends ApplicationException {
     constructor(message:string = '⚠️ Exceção de Aplicação Genérica da Entidade Categoria') {

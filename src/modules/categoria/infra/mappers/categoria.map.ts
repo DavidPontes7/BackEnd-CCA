@@ -1,5 +1,5 @@
-import { Categoria } from "@modules/categoria/domain/categoria.entity";
-import { ICategoria, RecuperarCategoriaProps } from "@modules/categoria/domain/categoria.types";
+import { Categoria } from "modules/categoria/domain/categoria.entity";
+import { ICategoria, RecuperarCategoriaProps } from "modules/categoria/domain/categoria.types";
 import { Prisma } from "@prisma/client";
 
 

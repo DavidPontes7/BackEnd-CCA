@@ -1,7 +1,7 @@
-import { IUseCase } from "@shared/application/use-case.interface";
+import { IUseCase } from "shared/application/use-case.interface";
 import { InscricaoApplicationExceptions } from "../../inscricao.application.exception";
-import { Inscricao } from "@modules/inscricao/domain/inscricao.entity";
-import { IInscricaoRepository } from "@modules/inscricao/domain/inscricao.repository.interface";
+import { Inscricao } from "modules/inscricao/domain/inscricao.entity";
+import { IInscricaoRepository } from "modules/inscricao/domain/inscricao.repository.interface";
 
 
 

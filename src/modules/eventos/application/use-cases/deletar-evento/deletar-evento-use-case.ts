@@ -1,6 +1,6 @@
-import { Evento } from "@modules/eventos/domain/evento.entity";
-import { IEventoRepository } from "@modules/eventos/domain/evento.repository.interface";
-import { IUseCase } from "@shared/application/use-case.interface";
+import { Evento } from "modules/eventos/domain/evento.entity";
+import { IEventoRepository } from "modules/eventos/domain/evento.repository.interface";
+import { IUseCase } from "shared/application/use-case.interface";
 import { EventoApplicationExceptions } from "../../evento.application.exception";
 
 

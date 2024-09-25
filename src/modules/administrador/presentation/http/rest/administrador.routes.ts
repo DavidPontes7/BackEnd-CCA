@@ -1,6 +1,6 @@
 import express from 'express';
 import { atualizarAdmController, autenticarAdmController, deletarAdmController, recuperarAdmPorIdController, recuperarTodosAdmController, registrarAdmController } from './controllers';
-import { contentType } from '@main/presentation/http/middlewares/content-type.middleware';
+import { contentType } from 'main/presentation/http/middlewares/content-type.middleware';
 import { validaInputAtualizarAdm } from '../middlewares/valida-input-atualizar-administrador.middleware';
 import { validaInputInserirAdm } from '../middlewares/valida-input-inserir-administrador.middleware';
 import { validaInputAutenticarAdm } from '../middlewares/valida-input-autenticar-administrador.middleware';

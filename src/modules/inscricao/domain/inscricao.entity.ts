@@ -1,8 +1,8 @@
-import { Entity } from "@shared/domain/entity";
+import { Entity } from "shared/domain/entity";
 import { CriarInscricaoProps, EditarInscricaoProps, IInscricao, RecuperarInscricaoProps } from "./inscricao.types";
 import { InscricaoMap } from "../infra/mappers/inscricao.map";
-import { IEvento, RecuperarEventoProps } from "@modules/eventos/domain/evento.types";
-import { Evento } from "@modules/eventos/domain/evento.entity";
+import { IEvento, RecuperarEventoProps } from "modules/eventos/domain/evento.types";
+import { Evento } from "modules/eventos/domain/evento.entity";
 
 
 class Inscricao extends Entity<IInscricao> implements IInscricao {

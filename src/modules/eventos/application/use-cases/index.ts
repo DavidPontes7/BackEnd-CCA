@@ -1,4 +1,4 @@
-import { eventoRepositorio } from "@modules/eventos/infra/database";
+import { eventoRepositorio } from "modules/eventos/infra/database";
 import { RecuperarTodosEventosUseCase } from "./recuperar-todos-eventos/recuperar-todos-evento-use-case";
 import { RecuperarEventoPorIdUseCase } from "./recuperar-evento-por-id/recuperar-evento-por-id-use-case";
 import { InserirEventoUseCase } from "./inserir-evento/inserir-evento-use-case";

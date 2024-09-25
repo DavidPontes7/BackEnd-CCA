@@ -1,7 +1,7 @@
 
-import { InserirLiturgiaUseCase } from "@modules/liturgia/application/use-cases/inserir-liturgia/inserir-liturgia.use-case";
-import { CriarLiturgiaProps, ILiturgia } from "@modules/liturgia/domain/liturgia.types";
-import { ExpressController } from "@shared/presentation/http/express.controller";
+import { InserirLiturgiaUseCase } from "modules/liturgia/application/use-cases/inserir-liturgia/inserir-liturgia.use-case";
+import { CriarLiturgiaProps, ILiturgia } from "modules/liturgia/domain/liturgia.types";
+import { ExpressController } from "shared/presentation/http/express.controller";
 import { NextFunction, Request, Response } from "express";
 
 class InserirLiturgiaExpressController extends ExpressController {

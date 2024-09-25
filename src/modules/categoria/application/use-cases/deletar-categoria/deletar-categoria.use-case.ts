@@ -1,7 +1,7 @@
-import { IUseCase } from "@shared/application/use-case.interface";
+import { IUseCase } from "shared/application/use-case.interface";
 import { CategoriaApplicationExceptions } from "../../conteudo.appication.exception";
-import { ICategoriaRepository } from "@modules/categoria/domain/categoria.repository.interface";
-import { Categoria } from "@modules/categoria/domain/categoria.entity";
+import { ICategoriaRepository } from "modules/categoria/domain/categoria.repository.interface";
+import { Categoria } from "modules/categoria/domain/categoria.entity";
 
 
 

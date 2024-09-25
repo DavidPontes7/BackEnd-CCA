@@ -3,7 +3,7 @@ import { afterEach, beforeAll, describe, expect, test, vi } from "vitest";
 import { DeepMockProxy, mockDeep, mockReset } from 'vitest-mock-extended';
 import { faker } from "@faker-js/faker";
 import { EventoPrismaRepository } from "./evento.prisma.repository";
-import { Evento } from "@modules/eventos/domain/evento.entity";
+import { Evento } from "modules/eventos/domain/evento.entity";
 import { EventoMap } from "../mappers/evento.map";
 
 

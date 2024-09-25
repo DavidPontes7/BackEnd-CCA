@@ -1,4 +1,4 @@
-import { atualizarConteudoUseCase, deletarConteudoUseCase, inserirConteudoUseCase, recuperarConteudoPorIdUseCase, recuperarTodosConteudosUseCase } from "@modules/conteudo/application/use-cases";
+import { atualizarConteudoUseCase, deletarConteudoUseCase, inserirConteudoUseCase, recuperarConteudoPorIdUseCase, recuperarTodosConteudosUseCase } from "modules/conteudo/application/use-cases";
 import { RecuperarConteudoPorIdExpressController } from "./recuperar-conteudo-por-id.express.controller";
 import { RecuperarTodosConteudosExpressController } from "./recuperar-todos-conteudos.express.controller";
 import { AtualizarConteudoExpressController } from "./atualizar-conteudo.express.controller";

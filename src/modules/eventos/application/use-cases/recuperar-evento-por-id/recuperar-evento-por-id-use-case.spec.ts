@@ -1,9 +1,9 @@
-import { Evento } from "@modules/eventos/domain/evento.entity";
-import { IEventoRepository } from "@modules/eventos/domain/evento.repository.interface";
+import { Evento } from "modules/eventos/domain/evento.entity";
+import { IEventoRepository } from "modules/eventos/domain/evento.repository.interface";
 import { afterEach, beforeAll, describe, expect, test, vi } from "vitest";
 import { MockProxy, mock, mockReset } from "vitest-mock-extended";
 import { RecuperarEventoPorIdUseCase } from "./recuperar-evento-por-id-use-case";
-import { IEvento } from "@modules/eventos/domain/evento.types";
+import { IEvento } from "modules/eventos/domain/evento.types";
 import { EventoApplicationExceptions } from "../../evento.application.exception";
 
 

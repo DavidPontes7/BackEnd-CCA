@@ -1,4 +1,4 @@
-import { prisma } from "@main/infra/database/orm/prisma/client";
+import { prisma } from "main/infra/database/orm/prisma/client";
 import { InscricaoPrismaRepository } from "./inscricao.prisma.repository";
 
 

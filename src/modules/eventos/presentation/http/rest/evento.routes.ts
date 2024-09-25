@@ -1,9 +1,9 @@
 import express from 'express';
 import { atualizarEventoController, deletarEventoController, inserirEventoController, recuperarEventoPorIdController, recuperarTodosEventosController } from './controllers';
-import { contentType } from '@main/presentation/http/middlewares/content-type.middleware';
+import { contentType } from 'main/presentation/http/middlewares/content-type.middleware';
 import { validaInputInserirEvento } from '../middlewares/valida-input-inserir-evento.middleware';
 import { validaInputAtualizarEvento } from '../middlewares/valida-input-atualizar-evento.middleware';
-import { upload } from '@main/presentation/http/middlewares/multer-config';
+import { upload } from 'main/presentation/http/middlewares/multer-config';
 
 const eventoRouter = express.Router();
 

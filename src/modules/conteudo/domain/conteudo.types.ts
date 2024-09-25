@@ -1,4 +1,4 @@
-import { ICategoria } from "@modules/categoria/domain/categoria.types";
+import { ICategoria } from "modules/categoria/domain/categoria.types";
 
 
 interface IConteudo {

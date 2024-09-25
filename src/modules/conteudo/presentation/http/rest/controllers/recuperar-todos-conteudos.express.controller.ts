@@ -1,6 +1,6 @@
-import { RecuperarTodosConteudosUseCase } from "@modules/conteudo/application/use-cases/recuperar-todos-conteudos/recuperar-todos-conteudos-use-case";
-import { IConteudo } from "@modules/conteudo/domain/conteudo.types";
-import { ExpressController } from "@shared/presentation/http/express.controller";
+import { RecuperarTodosConteudosUseCase } from "modules/conteudo/application/use-cases/recuperar-todos-conteudos/recuperar-todos-conteudos-use-case";
+import { IConteudo } from "modules/conteudo/domain/conteudo.types";
+import { ExpressController } from "shared/presentation/http/express.controller";
 import { NextFunction, Request, Response } from "express";
 
 class RecuperarTodosConteudosExpressController extends ExpressController {

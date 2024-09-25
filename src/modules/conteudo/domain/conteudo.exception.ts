@@ -1,4 +1,4 @@
-import { DomainException } from "@shared/domain/domain.exception";
+import { DomainException } from "shared/domain/domain.exception";
 
 class ConteudoException extends DomainException{
     constructor(message:string = "Exceção de dominio genérica da entidade informação"){

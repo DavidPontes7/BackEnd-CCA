@@ -1,6 +1,6 @@
-import { InserirEventoUseCase } from "@modules/eventos/application/use-cases/inserir-evento/inserir-evento-use-case";
-import { CriarEventoProps, IEvento } from "@modules/eventos/domain/evento.types";
-import { ExpressController } from "@shared/presentation/http/express.controller";
+import { InserirEventoUseCase } from "modules/eventos/application/use-cases/inserir-evento/inserir-evento-use-case";
+import { CriarEventoProps, IEvento } from "modules/eventos/domain/evento.types";
+import { ExpressController } from "shared/presentation/http/express.controller";
 import { NextFunction, Request, Response } from "express";
 import path from 'path';
 

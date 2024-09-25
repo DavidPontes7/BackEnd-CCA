@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { contentType } from '@main/presentation/http/middlewares/content-type.middleware';
+import { contentType } from 'main/presentation/http/middlewares/content-type.middleware';
 import { atualizarInscricaoController, deletarInscricaoController, inserirInscricaoController, recuperarTodasInscricoesController } from './controllers';
 import { validaInputInserirInscricao } from '../middlewares/valida-input-inserir-inscricao-middleware';
 

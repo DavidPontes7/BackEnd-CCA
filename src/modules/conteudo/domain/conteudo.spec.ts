@@ -2,7 +2,7 @@ import { beforeAll, describe, expect, test } from 'vitest';
 import { Conteudo } from './conteudo.entity';
 import { TituloConteudoTamanhoMinimoInvalido, TituloConteudoTamanhoMaximoInvalido, DescricaoConteudoTamanhoMinimoInvalido, DescricaoConteudoTamanhoMaximoInvalido } from './conteudo.exception';
 import { CriarConteudoProps, EditarConteudoProps } from './conteudo.types';
-import {faker} from '@faker-js/faker'
+import { faker } from '@faker-js/faker/locale/af_ZA'; 
 
 let TituloValido: string;
 let TituloTamanhoMinimoInvalido: string;

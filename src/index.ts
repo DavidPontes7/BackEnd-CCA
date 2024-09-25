@@ -1,6 +1,6 @@
-import { DomainException } from "@shared/domain/domain.exception";
-import { prisma } from "@main/infra/database/orm/prisma/client";
-import { deletarEventoUseCase } from "@modules/eventos/application/use-cases";
+import { DomainException } from "shared/domain/domain.exception";
+import { prisma } from "main/infra/database/orm/prisma/client";
+import { deletarEventoUseCase } from "modules/eventos/application/use-cases";
 
 
 

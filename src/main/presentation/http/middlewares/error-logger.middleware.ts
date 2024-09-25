@@ -1,5 +1,5 @@
-import { logger } from "@shared/helpers/logger.winston";
-import { HttpError } from "@shared/presentation/http/http.error";
+import { logger } from "shared/helpers/logger.winston";
+import { HttpError } from "shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
 const errorLoggerMiddleware = (error: HttpError, request: Request, response: Response, next: NextFunction) => {
