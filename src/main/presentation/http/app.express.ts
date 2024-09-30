@@ -17,7 +17,6 @@ import swaggerDocs from './swagger.json'
 
 const swaggerUi = require('swagger-ui-express');
 
-
 dotenv.config();
 
 
@@ -39,18 +38,15 @@ if (!fs.existsSync(uploadDir)) {
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
     
-    const port = 3000;
+
     //Middlewares de Terceiros
-    // Listen on `port` and 0.0.0.0
-app.listen(port, "0.0.0.0", function () {
-    // ...
-  });
     app.use(helmet());
     app.use(compression());
     app.use(cors({
-        origin: ['http://localhost:5173', 'http://127.0.0.1:5173', 'http://localhost:5400', 'http://127.0.0.1:5400', 'http://localhost:3000'],
-        optionsSuccessStatus: 200
-    }));
+        origin: '*', // Permite todas as origens
+        methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
+        allowedHeaders: ['Content-Type', 'Authorization'], // Cabeçalhos permitidos
+      }));
     app.use((req, res, next) => {
         res.setHeader('Cross-Origin-Resource-Policy', 'cross-origin');
         next();
