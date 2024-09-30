@@ -43,10 +43,9 @@ if (!fs.existsSync(uploadDir)) {
     app.use(helmet());
     app.use(compression());
     app.use(cors({
-        origin: '*', // Permite todas as origens
-        methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
-        allowedHeaders: ['Content-Type', 'Authorization'], // Cabeçalhos permitidos
-      }));
+        origin: ['http://localhost:5173', 'http://127.0.0.1:5173', 'http://localhost:5400', 'http://127.0.0.1:5400', 'http://localhost:3000'],
+        optionsSuccessStatus: 200
+    }));
     app.use((req, res, next) => {
         res.setHeader('Cross-Origin-Resource-Policy', 'cross-origin');
         next();
