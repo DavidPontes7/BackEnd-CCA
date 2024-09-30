@@ -17,6 +17,7 @@ import swaggerDocs from './swagger.json'
 
 const swaggerUi = require('swagger-ui-express');
 
+
 dotenv.config();
 
 
@@ -38,8 +39,12 @@ if (!fs.existsSync(uploadDir)) {
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
     
-
+    const port = 3000;
     //Middlewares de Terceiros
+    // Listen on `port` and 0.0.0.0
+app.listen(port, "0.0.0.0", function () {
+    // ...
+  });
     app.use(helmet());
     app.use(compression());
     app.use(cors({
