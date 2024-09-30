@@ -1,7 +1,7 @@
-import { ConteudoApplicationExceptions } from "modules/conteudo/application/conteudo.application.exception";
-import { AtualizarConteudoUseCase } from "modules/conteudo/application/use-cases/atualizar-conteudo/atualizar-conteudo-use-case";
-import { RecuperarConteudoProps } from "modules/conteudo/domain/conteudo.types";
-import { ExpressController } from "shared/presentation/http/express.controller";
+import { ConteudoApplicationExceptions } from "../../../../../../modules/conteudo/application/conteudo.application.exception";
+import { AtualizarConteudoUseCase } from "../../../../../../modules/conteudo/application/use-cases/atualizar-conteudo/atualizar-conteudo-use-case";
+import { RecuperarConteudoProps } from "../../../../../../modules/conteudo/domain/conteudo.types";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
 import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 

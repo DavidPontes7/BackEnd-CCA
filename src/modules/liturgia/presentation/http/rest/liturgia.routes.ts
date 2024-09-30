@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { contentType } from 'main/presentation/http/middlewares/content-type.middleware';
+import { contentType } from '../../../../../main/presentation/http/middlewares/content-type.middleware';
 import { atualizarLiturgiaController, deletarLiturgiaController, inserirLiturgiaController, recuperarLiturgiaPorIdController, recuperarTodasLiturgiasController } from './controllers';
 
 const liturgiaRouter = express.Router();

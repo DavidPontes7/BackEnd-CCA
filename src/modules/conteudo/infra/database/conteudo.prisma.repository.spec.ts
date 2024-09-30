@@ -3,9 +3,9 @@ import { afterEach, beforeAll, describe, expect, test, vi } from "vitest";
 import { DeepMockProxy, mockDeep, mockReset } from 'vitest-mock-extended';
 import { faker } from "@faker-js/faker";
 import { ConteudoPrismaRepository } from "./conteudo.prisma.repository";
-import { Conteudo } from "modules/conteudo/domain/conteudo.entity";
+import { Conteudo } from "../../../../modules/conteudo/domain/conteudo.entity";
 import { ConteudoMap } from "../mappers/conteudo.map";
-import { Categoria } from "modules/categoria/domain/categoria.entity";
+import { Categoria } from "../../../../modules/categoria/domain/categoria.entity";
 
 
 

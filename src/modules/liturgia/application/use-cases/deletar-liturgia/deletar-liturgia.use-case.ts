@@ -1,7 +1,7 @@
-import { IUseCase } from "shared/application/use-case.interface";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 import { LiturgiaApplicationExceptions } from "../../liturgia.application.exception";
-import { ILiturgiaRepository } from "modules/liturgia/domain/liturgia.repository.interface";
-import { Liturgia } from "modules/liturgia/domain/liturgia.entity";
+import { ILiturgiaRepository } from "../../../../../modules/liturgia/domain/liturgia.repository.interface";
+import { Liturgia } from "../../../../../modules/liturgia/domain/liturgia.entity";
 
 
 

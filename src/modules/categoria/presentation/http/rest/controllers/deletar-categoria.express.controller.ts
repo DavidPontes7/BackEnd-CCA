@@ -1,6 +1,6 @@
-import { CategoriaApplicationExceptions } from "modules/categoria/application/conteudo.appication.exception";
-import { DeletarCategoriaUseCase } from "modules/categoria/application/use-cases/deletar-categoria/deletar-categoria.use-case";
-import { ExpressController } from "shared/presentation/http/express.controller";
+import { CategoriaApplicationExceptions } from "../../../../../../modules/categoria/application/conteudo.appication.exception";
+import { DeletarCategoriaUseCase } from "../../../../../../modules/categoria/application/use-cases/deletar-categoria/deletar-categoria.use-case";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
 import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 

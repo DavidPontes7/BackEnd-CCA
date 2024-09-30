@@ -1,7 +1,7 @@
 
-import { EventoMap } from "modules/eventos/infra/mappers/evento.map";
-import { Inscricao } from "modules/inscricao/domain/inscricao.entity";
-import { IInscricao, RecuperarInscricaoProps } from "modules/inscricao/domain/inscricao.types";
+import { EventoMap } from "../../../../modules/eventos/infra/mappers/evento.map";
+import { Inscricao } from "../../../../modules/inscricao/domain/inscricao.entity";
+import { IInscricao, RecuperarInscricaoProps } from "../../../../modules/inscricao/domain/inscricao.types";
 import { Prisma } from "@prisma/client";
 
 

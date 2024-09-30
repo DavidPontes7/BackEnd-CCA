@@ -1,7 +1,7 @@
-import { EventoApplicationExceptions } from "modules/eventos/application/evento.application.exception";
-import { RecuperarEventoPorIdUseCase } from "modules/eventos/application/use-cases/recuperar-evento-por-id/recuperar-evento-por-id-use-case";
-import { IEvento } from "modules/eventos/domain/evento.types";
-import { ExpressController } from "shared/presentation/http/express.controller";
+import { EventoApplicationExceptions } from "../../../../../../modules/eventos/application/evento.application.exception";
+import { RecuperarEventoPorIdUseCase } from "../../../../../../modules/eventos/application/use-cases/recuperar-evento-por-id/recuperar-evento-por-id-use-case";
+import { IEvento } from "../../../../../../modules/eventos/domain/evento.types";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
 import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 

@@ -1,9 +1,9 @@
 import { Mock, afterEach, beforeAll, describe, expect, test, vi, vitest } from "vitest";
 import { MockProxy, mock, mockReset } from "vitest-mock-extended";
 import { Request, Response } from "express";
-import { CriarEventoProps } from "modules/eventos/domain/evento.types";
+import { CriarEventoProps } from "../../../../../../modules/eventos/domain/evento.types";
 import { InserirEventoExpressController } from "./inserir-evento.express.controller";
-import { InserirEventoUseCase } from "modules/eventos/application/use-cases/inserir-evento/inserir-evento-use-case";
+import { InserirEventoUseCase } from "../../../../../../modules/eventos/application/use-cases/inserir-evento/inserir-evento-use-case";
 
 
 let inserirEventoUseCaseMock:  MockProxy<InserirEventoUseCase>;

@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 import { Mock, afterEach, beforeAll, describe, expect, test, vi, vitest } from "vitest";
 import { MockProxy, mock, mockReset } from "vitest-mock-extended";
-import { ConteudoApplicationExceptions } from "modules/conteudo/application/conteudo.application.exception";
-import { IConteudo } from "modules/conteudo/domain/conteudo.types";
-import { RecuperarConteudoPorIdUseCase } from "modules/conteudo/application/use-cases/recuperar-conteudo-por-id/recuperar-conteudo-por-id-use-case";
+import { ConteudoApplicationExceptions } from "../../../../../../modules/conteudo/application/conteudo.application.exception";
+import { IConteudo } from "../../../../../../modules/conteudo/domain/conteudo.types";
+import { RecuperarConteudoPorIdUseCase } from "../../../../../../modules/conteudo/application/use-cases/recuperar-conteudo-por-id/recuperar-conteudo-por-id-use-case";
 import { RecuperarConteudoPorIdExpressController } from "./recuperar-conteudo-por-id.express.controller";
 import { HttpError, HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 

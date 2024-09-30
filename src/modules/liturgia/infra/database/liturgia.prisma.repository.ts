@@ -1,8 +1,8 @@
-import { Liturgia } from "modules/liturgia/domain/liturgia.entity";
-import { PrismaRepository } from "shared/infra/database/prisma.repository";
+import { Liturgia } from "../../../../modules/liturgia/domain/liturgia.entity";
+import { PrismaRepository } from "../../../../shared/infra/database/prisma.repository";
 import bcrypt from "bcrypt"
 import { LiturgiaMap } from "../mappers/liturgia.map";
-import { ILiturgiaRepository } from "modules/liturgia/domain/liturgia.repository.interface";
+import { ILiturgiaRepository } from "../../../../modules/liturgia/domain/liturgia.repository.interface";
 
 
 class LiturgiaPrismaRepository extends PrismaRepository implements ILiturgiaRepository<Liturgia> {

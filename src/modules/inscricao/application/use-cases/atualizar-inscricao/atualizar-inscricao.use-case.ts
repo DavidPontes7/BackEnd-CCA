@@ -1,7 +1,7 @@
-import { Inscricao } from "modules/inscricao/domain/inscricao.entity";
-import { IInscricaoRepository } from "modules/inscricao/domain/inscricao.repository.interface";
-import { RecuperarInscricaoProps } from "modules/inscricao/domain/inscricao.types";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Inscricao } from "../../../../../modules/inscricao/domain/inscricao.entity";
+import { IInscricaoRepository } from "../../../../../modules/inscricao/domain/inscricao.repository.interface";
+import { RecuperarInscricaoProps } from "../../../../../modules/inscricao/domain/inscricao.types";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 import { InscricaoApplicationExceptions } from "../../inscricao.application.exception";
 
 

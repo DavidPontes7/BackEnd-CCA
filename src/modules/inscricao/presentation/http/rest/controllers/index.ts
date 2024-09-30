@@ -2,7 +2,7 @@
 import { InserirInscricaoExpressController } from "./inserir-inscricao.express.controller"
 import { AtualizarInscricaoExpressController } from "./atualizar-inscricao.express.controller"
 import { DeletarInscricaoExpressController } from "./deletar-inscricao.express.controller"
-import { atualizarInscricaoUseCase, deletarInscricaoUseCase, inserirInscricaoUseCase, recuperarTodasInscricoesUseCase } from "modules/inscricao/application/use-cases"
+import { atualizarInscricaoUseCase, deletarInscricaoUseCase, inserirInscricaoUseCase, recuperarTodasInscricoesUseCase } from "../../../../../../modules/inscricao/application/use-cases"
 import { RecuperarTodasInscricoesExpressController } from "./recuperar-todas-inscricoes.express.controller"
 
 

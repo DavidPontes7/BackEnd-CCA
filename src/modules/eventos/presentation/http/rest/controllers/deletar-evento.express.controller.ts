@@ -1,6 +1,6 @@
-import { EventoApplicationExceptions } from "modules/eventos/application/evento.application.exception";
-import { DeletarEventoUseCase } from "modules/eventos/application/use-cases/deletar-evento/deletar-evento-use-case";
-import { ExpressController } from "shared/presentation/http/express.controller";
+import { EventoApplicationExceptions } from "../../../../../../modules/eventos/application/evento.application.exception";
+import { DeletarEventoUseCase } from "../../../../../../modules/eventos/application/use-cases/deletar-evento/deletar-evento-use-case";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
 import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 

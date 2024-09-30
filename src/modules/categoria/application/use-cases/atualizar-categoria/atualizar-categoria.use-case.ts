@@ -1,8 +1,8 @@
-import { IUseCase } from "shared/application/use-case.interface";
-import { RecuperarAdmProps } from "modules/administrador/domain/administrador.types";
-import { RecuperarCategoriaProps } from "modules/categoria/domain/categoria.types";
-import { Categoria } from "modules/categoria/domain/categoria.entity";
-import { ICategoriaRepository } from "modules/categoria/domain/categoria.repository.interface";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
+import { RecuperarAdmProps } from "../../../../../modules/administrador/domain/administrador.types";
+import { RecuperarCategoriaProps } from "../../../../../modules/categoria/domain/categoria.types";
+import { Categoria } from "../../../../../modules/categoria/domain/categoria.entity";
+import { ICategoriaRepository } from "../../../../../modules/categoria/domain/categoria.repository.interface";
 import { CategoriaApplicationExceptions } from "../../conteudo.appication.exception";
 
 

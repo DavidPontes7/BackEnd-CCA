@@ -1,9 +1,9 @@
-import { Conteudo } from "modules/conteudo/domain/conteudo.entity";
-import { IConteudoRepository } from "modules/conteudo/domain/conteudo.repository.interface";
+import { Conteudo } from "../../../../../modules/conteudo/domain/conteudo.entity";
+import { IConteudoRepository } from "../../../../../modules/conteudo/domain/conteudo.repository.interface";
 import { afterEach, beforeAll, describe, expect, test, vi } from "vitest";
 import { MockProxy, mock, mockReset } from "vitest-mock-extended";
 import { InserirConteudoUseCase } from "./inserir-conteudo-use-case";
-import { CriarConteudoProps, IConteudo } from "modules/conteudo/domain/conteudo.types";
+import { CriarConteudoProps, IConteudo } from "../../../../../modules/conteudo/domain/conteudo.types";
 
 
 

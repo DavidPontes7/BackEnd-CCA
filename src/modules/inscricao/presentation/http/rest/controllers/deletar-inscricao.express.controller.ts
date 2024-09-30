@@ -1,7 +1,7 @@
 
-import { InscricaoApplicationExceptions } from "modules/inscricao/application/inscricao.application.exception";
-import { DeletarInscricaoUseCase } from "modules/inscricao/application/use-cases/deletar-inscricao/deletar-inscricao.use-case";
-import { ExpressController } from "shared/presentation/http/express.controller";
+import { InscricaoApplicationExceptions } from "../../../../../../modules/inscricao/application/inscricao.application.exception";
+import { DeletarInscricaoUseCase } from "../../../../../../modules/inscricao/application/use-cases/deletar-inscricao/deletar-inscricao.use-case";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
 import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 

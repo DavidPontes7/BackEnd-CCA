@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
-import { Conteudo } from "modules/conteudo/domain/conteudo.entity";
-import { IConteudoRepository } from "modules/conteudo/domain/conteudo.repository.interface";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Conteudo } from "../../../../../modules/conteudo/domain/conteudo.entity";
+import { IConteudoRepository } from "../../../../../modules/conteudo/domain/conteudo.repository.interface";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 import { ConteudoApplicationExceptions } from "../../conteudo.application.exception";
 
 class DeletarConteudoUseCase implements IUseCase<string, boolean> {

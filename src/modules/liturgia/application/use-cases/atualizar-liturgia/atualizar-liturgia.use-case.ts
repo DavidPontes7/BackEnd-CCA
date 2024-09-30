@@ -1,8 +1,8 @@
-import { Liturgia } from "modules/liturgia/domain/liturgia.entity";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Liturgia } from "../../../../../modules/liturgia/domain/liturgia.entity";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 import { LiturgiaApplicationExceptions } from "../../liturgia.application.exception";
-import { RecuperarLiturgiaProps } from "modules/liturgia/domain/liturgia.types";
-import { ILiturgiaRepository } from "modules/liturgia/domain/liturgia.repository.interface";
+import { RecuperarLiturgiaProps } from "../../../../../modules/liturgia/domain/liturgia.types";
+import { ILiturgiaRepository } from "../../../../../modules/liturgia/domain/liturgia.repository.interface";
 
 
 

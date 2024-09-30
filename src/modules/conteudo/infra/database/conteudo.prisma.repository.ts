@@ -1,6 +1,6 @@
-import { Conteudo } from "modules/conteudo/domain/conteudo.entity";
-import { IConteudoRepository } from "modules/conteudo/domain/conteudo.repository.interface";
-import { PrismaRepository } from "shared/infra/database/prisma.repository";
+import { Conteudo } from "../../../../modules/conteudo/domain/conteudo.entity";
+import { IConteudoRepository } from "../../../../modules/conteudo/domain/conteudo.repository.interface";
+import { PrismaRepository } from "../../../../shared/infra/database/prisma.repository";
 import { ConteudoMap } from "../mappers/conteudo.map";
 import { Prisma } from "@prisma/client";
 

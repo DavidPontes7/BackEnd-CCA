@@ -1,6 +1,6 @@
-import { RecuperarTodosEventosUseCase } from "modules/eventos/application/use-cases/recuperar-todos-eventos/recuperar-todos-evento-use-case";
-import { IEvento } from "modules/eventos/domain/evento.types";
-import { ExpressController } from "shared/presentation/http/express.controller";
+import { RecuperarTodosEventosUseCase } from "../../../../../../modules/eventos/application/use-cases/recuperar-todos-eventos/recuperar-todos-evento-use-case";
+import { IEvento } from "../../../../../../modules/eventos/domain/evento.types";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
 import { NextFunction, Request, Response } from "express";
 
 class RecuperarTodosEventosExpressController extends ExpressController {

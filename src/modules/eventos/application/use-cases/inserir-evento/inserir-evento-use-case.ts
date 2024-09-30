@@ -1,8 +1,8 @@
-import { Evento } from "modules/eventos/domain/evento.entity";
-import { IEventoRepository } from "modules/eventos/domain/evento.repository.interface";
-import { CriarEventoProps, IEvento } from "modules/eventos/domain/evento.types";
-import { EventoMap } from "modules/eventos/infra/mappers/evento.map";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Evento } from "../../../../../modules/eventos/domain/evento.entity";
+import { IEventoRepository } from "../../../../../modules/eventos/domain/evento.repository.interface";
+import { CriarEventoProps, IEvento } from "../../../../../modules/eventos/domain/evento.types";
+import { EventoMap } from "../../../../../modules/eventos/infra/mappers/evento.map";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 
 class InserirEventoUseCase implements IUseCase<CriarEventoProps, IEvento> {
     private _eventoRepositorio: IEventoRepository<Evento>;

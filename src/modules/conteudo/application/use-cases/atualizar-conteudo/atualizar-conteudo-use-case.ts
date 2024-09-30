@@ -1,7 +1,7 @@
-import { Conteudo } from "modules/conteudo/domain/conteudo.entity";
-import { IConteudoRepository } from "modules/conteudo/domain/conteudo.repository.interface"; 
-import { RecuperarConteudoProps } from "modules/conteudo/domain/conteudo.types";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Conteudo } from "../../../../../modules/conteudo/domain/conteudo.entity";
+import { IConteudoRepository } from "../../../../../modules/conteudo/domain/conteudo.repository.interface"; 
+import { RecuperarConteudoProps } from "../../../../../modules/conteudo/domain/conteudo.types";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 import { ConteudoApplicationExceptions } from "../../conteudo.application.exception";
 import fs from 'fs';
 import path from 'path';

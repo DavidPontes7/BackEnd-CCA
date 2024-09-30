@@ -1,9 +1,9 @@
-import { Conteudo } from "modules/conteudo/domain/conteudo.entity";
-import { IConteudoRepository } from "modules/conteudo/domain/conteudo.repository.interface";
-import { IConteudo } from "modules/conteudo/domain/conteudo.types";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Conteudo } from "../../../../../modules/conteudo/domain/conteudo.entity";
+import { IConteudoRepository } from "../../../../../modules/conteudo/domain/conteudo.repository.interface";
+import { IConteudo } from "../../../../../modules/conteudo/domain/conteudo.types";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 import { ConteudoApplicationExceptions } from "../../conteudo.application.exception";
-import { ConteudoMap } from "modules/conteudo/infra/mappers/conteudo.map";
+import { ConteudoMap } from "../../../../../modules/conteudo/infra/mappers/conteudo.map";
 
 
 

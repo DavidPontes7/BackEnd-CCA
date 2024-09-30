@@ -1,6 +1,6 @@
-import { PrismaRepository } from "shared/infra/database/prisma.repository";
+import { PrismaRepository } from "../../../../shared/infra/database/prisma.repository";
 import bcrypt from "bcrypt"
-import { Categoria } from "modules/categoria/domain/categoria.entity";
+import { Categoria } from "../../../../modules/categoria/domain/categoria.entity";
 import { CategoriaMap } from "../mappers/categoria.map";
 
 class CategoriaPrismaRepository extends PrismaRepository {

@@ -1,8 +1,8 @@
 
-import { Evento } from "modules/eventos/domain/evento.entity";
-import { IEventoRepository } from "modules/eventos/domain/evento.repository.interface";
-import { RecuperarEventoProps } from "modules/eventos/domain/evento.types";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Evento } from "../../../../../modules/eventos/domain/evento.entity";
+import { IEventoRepository } from "../../../../../modules/eventos/domain/evento.repository.interface";
+import { RecuperarEventoProps } from "../../../../../modules/eventos/domain/evento.types";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 import { EventoApplicationExceptions } from "../../evento.application.exception";
 
 class AtualizarEventoUseCase implements IUseCase<RecuperarEventoProps, boolean> {

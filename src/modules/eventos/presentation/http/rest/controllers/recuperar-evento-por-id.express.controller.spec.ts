@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
 import { Mock, afterEach, beforeAll, describe, expect, test, vi, vitest } from "vitest";
 import { MockProxy, mock, mockReset } from "vitest-mock-extended";
-import { RecuperarEventoPorIdUseCase } from "modules/eventos/application/use-cases/recuperar-evento-por-id/recuperar-evento-por-id-use-case";
+import { RecuperarEventoPorIdUseCase } from "../../../../../../modules/eventos/application/use-cases/recuperar-evento-por-id/recuperar-evento-por-id-use-case";
 import { RecuperarEventoPorIdExpressController } from "./recuperar-evento-por-id.express.controller";
-import { IEvento } from "modules/eventos/domain/evento.types";
-import { EventoApplicationExceptions } from "modules/eventos/application/evento.application.exception";
+import { IEvento } from "../../../../../../modules/eventos/domain/evento.types";
+import { EventoApplicationExceptions } from "../../../../../../modules/eventos/application/evento.application.exception";
 import { HttpError, HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 
 

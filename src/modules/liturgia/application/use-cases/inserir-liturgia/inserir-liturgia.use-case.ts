@@ -1,9 +1,9 @@
 
-import { Liturgia } from "modules/liturgia/domain/liturgia.entity";
-import { ILiturgiaRepository } from "modules/liturgia/domain/liturgia.repository.interface";
-import { CriarLiturgiaProps, ILiturgia } from "modules/liturgia/domain/liturgia.types";
-import { LiturgiaMap } from "modules/liturgia/infra/mappers/liturgia.map";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Liturgia } from "../../../../../modules/liturgia/domain/liturgia.entity";
+import { ILiturgiaRepository } from "../../../../../modules/liturgia/domain/liturgia.repository.interface";
+import { CriarLiturgiaProps, ILiturgia } from "../../../../../modules/liturgia/domain/liturgia.types";
+import { LiturgiaMap } from "../../../../../modules/liturgia/infra/mappers/liturgia.map";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 
 class InserirLiturgiaUseCase implements IUseCase<CriarLiturgiaProps,ILiturgia> {
     private _liturgiaRepositorio: ILiturgiaRepository<Liturgia>;

@@ -1,7 +1,7 @@
-import { Evento } from "modules/eventos/domain/evento.entity";
-import { IEventoRepository } from "modules/eventos/domain/evento.repository.interface";
-import { EventoMap } from "modules/eventos/infra/mappers/evento.map";
-import { PrismaRepository } from "shared/infra/database/prisma.repository";
+import { Evento } from "../../../../modules/eventos/domain/evento.entity";
+import { IEventoRepository } from "../../../../modules/eventos/domain/evento.repository.interface";
+import { EventoMap } from "../../../../modules/eventos/infra/mappers/evento.map";
+import { PrismaRepository } from "../../../../shared/infra/database/prisma.repository";
 
 class EventoPrismaRepository extends PrismaRepository implements IEventoRepository<Evento> {
 

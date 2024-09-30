@@ -1,4 +1,4 @@
-import { ApplicationException } from "shared/application/application.exception";
+import { ApplicationException } from "../../../shared/application/application.exception";
 
 class InscricaoApplicationException extends ApplicationException {
     constructor(message:string = '⚠️ Exceção de Aplicação Genérica da Entidade Inscricao') {

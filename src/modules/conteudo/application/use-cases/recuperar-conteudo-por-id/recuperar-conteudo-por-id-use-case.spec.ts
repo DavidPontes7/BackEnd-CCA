@@ -1,8 +1,8 @@
 import { afterEach, beforeAll, describe, expect, test, vi } from "vitest";
 import { MockProxy, mock, mockReset } from "vitest-mock-extended";
-import { IConteudo } from "modules/conteudo/domain/conteudo.types";
-import { IConteudoRepository } from "modules/conteudo/domain/conteudo.repository.interface";
-import { Conteudo } from "modules/conteudo/domain/conteudo.entity";
+import { IConteudo } from "../../../../../modules/conteudo/domain/conteudo.types";
+import { IConteudoRepository } from "../../../../../modules/conteudo/domain/conteudo.repository.interface";
+import { Conteudo } from "../../../../../modules/conteudo/domain/conteudo.entity";
 import { RecuperarConteudoPorIdUseCase } from "./recuperar-conteudo-por-id-use-case";
 import { ConteudoApplicationExceptions } from "../../conteudo.application.exception";
 

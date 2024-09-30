@@ -1,8 +1,8 @@
-import { Categoria } from "modules/categoria/domain/categoria.entity";
-import { ICategoriaRepository } from "modules/categoria/domain/categoria.repository.interface";
-import { CriarCategoriaProps, ICategoria } from "modules/categoria/domain/categoria.types";
-import { CategoriaMap } from "modules/categoria/infra/mappers/categoria.map";
-import { IUseCase } from "shared/application/use-case.interface";
+import { Categoria } from "../../../../../modules/categoria/domain/categoria.entity";
+import { ICategoriaRepository } from "../../../../../modules/categoria/domain/categoria.repository.interface";
+import { CriarCategoriaProps, ICategoria } from "../../../../../modules/categoria/domain/categoria.types";
+import { CategoriaMap } from "../../../../../modules/categoria/infra/mappers/categoria.map";
+import { IUseCase } from "../../../../../shared/application/use-case.interface";
 
 class RegistrarCategoriaUseCase implements IUseCase<CriarCategoriaProps,ICategoria> {
     private _categoriaRepositorio: ICategoriaRepository<Categoria>;

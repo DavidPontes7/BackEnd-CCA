@@ -2,7 +2,7 @@ import express, { Application } from "express";
 import { afterEach, beforeAll, describe, expect, test, vi } from "vitest";
 import { MockProxy, mock, mockReset } from "vitest-mock-extended";
 import request from 'supertest';
-import { CriarEventoProps, IEvento } from "modules/eventos/domain/evento.types";
+import { CriarEventoProps, IEvento } from "../../../../../modules/eventos/domain/evento.types";
 import { InserirEventoExpressController } from "./controllers/inserir-evento.express.controller";
 import { RecuperarEventoPorIdExpressController } from "./controllers/recuperar-evento-por-id.express.controller";
 

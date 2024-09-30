@@ -1,4 +1,4 @@
-import { Entity } from "shared/domain/entity";
+import { Entity } from "../../../shared/domain/entity";
 import { CriarCategoriaProps, ICategoria, RecuperarCategoriaProps } from "./categoria.types";
 
 

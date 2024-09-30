@@ -1,6 +1,6 @@
-import { ConteudoApplicationExceptions } from "modules/conteudo/application/conteudo.application.exception";
-import { DeletarConteudoUseCase } from "modules/conteudo/application/use-cases/deletar-conteudo/deletar-conteudo-use-case";
-import { ExpressController } from "shared/presentation/http/express.controller";
+import { ConteudoApplicationExceptions } from "../../../../../../modules/conteudo/application/conteudo.application.exception";
+import { DeletarConteudoUseCase } from "../../../../../../modules/conteudo/application/use-cases/deletar-conteudo/deletar-conteudo-use-case";
+import { ExpressController } from "../../../../../../shared/presentation/http/express.controller";
 import { HttpErrors } from "../../../../../../shared/presentation/http/http.error";
 import { NextFunction, Request, Response } from "express";
 
