@@ -11,7 +11,7 @@ import fs from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
 import swaggerDocs from './swagger.json'
-import { logger } from "shared/helpers/logger.winston";
+import { logger } from "../../../shared/helpers/logger.winston";
 
 
 
