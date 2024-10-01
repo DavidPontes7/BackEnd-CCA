@@ -11,6 +11,7 @@ import fs from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
 import swaggerDocs from './swagger.json'
+import { logger } from "shared/helpers/logger.winston";
 
 
 
@@ -23,6 +24,7 @@ dotenv.config();
 const createExpressApplication = async (): Promise<Application>  => {
 
     const port = process.env.PORT || 3000;
+    const host_name = process.env.HOST_NAME;
 
     
     
@@ -34,6 +36,9 @@ if (!fs.existsSync(uploadDir)) {
 
     const app: Application = express();
     app.disable('x-powered-by');
+    app.listen({ port: port }, async () => {
+        logger.ok(`Servidor HTTP Pronto e Ouvindo em http://${host_name}:${port}`);
+    });
 
 
     app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
@@ -44,10 +49,7 @@ if (!fs.existsSync(uploadDir)) {
     
 
     //Middlewares de Terceiros
-    app.listen(port, () => {
-        console.log(`Example app listening on port ${port}`)
-      })
-      
+   
     app.use(helmet());
     app.use(compression());
     app.use(cors({
