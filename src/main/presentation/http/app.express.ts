@@ -23,8 +23,7 @@ dotenv.config();
 
 const createExpressApplication = async (): Promise<Application>  => {
 
-    const port = process.env.PORT || 3000;
-    const host_name = process.env.HOST_NAME;
+    
 
     
     
@@ -36,9 +35,10 @@ if (!fs.existsSync(uploadDir)) {
 
     const app: Application = express();
     app.disable('x-powered-by');
-    app.listen({ port: port }, async () => {
-        logger.ok(`Servidor HTTP Pronto e Ouvindo em http://${host_name}:${port}`);
-    });
+    app.listen({
+        host: '0.0.0.0',
+        port: process.env.PORT || 3000
+    })
 
 
     app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
