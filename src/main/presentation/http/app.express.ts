@@ -21,6 +21,10 @@ dotenv.config();
 
 
 const createExpressApplication = async (): Promise<Application>  => {
+
+    const port = process.env.PORT || 3000;
+
+    
     
     // Criação do diretório de uploads
 const uploadDir = path.join(__dirname, '../uploads');
@@ -40,6 +44,10 @@ if (!fs.existsSync(uploadDir)) {
     
 
     //Middlewares de Terceiros
+    app.listen(port, () => {
+        console.log(`Example app listening on port ${port}`)
+      })
+      
     app.use(helmet());
     app.use(compression());
     app.use(cors({
